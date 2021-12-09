@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    padding:15px 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom: 1px solid #75FDFF;
+}
+.nav ul li{
+    box-snap: none;
+    display: inline-block;
+    margin: 0 20px;
+}
