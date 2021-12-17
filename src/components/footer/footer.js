@@ -1,5 +1,4 @@
 import React from "react";
-import {Link, Route} from 'react-router-dom';
 import './footer.css'
 
 class Header extends React.Component {

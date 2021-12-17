@@ -1,14 +1,14 @@
 import React from "react";
 
-class Home extends React.Component{
+class Blog extends React.Component{
 
     render() {
         return (
             <div className="app">
-                首页
+                博客
             </div>
         )
     }
 }
 
-export default Home;
+export default Blog;
