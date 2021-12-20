@@ -10,14 +10,19 @@ a{
     padding:15px 0;
     display: flex;
     justify-content: center;
-    background-color: transparent;
-    border-bottom: 1px solid #75FDFF;
+    background-color: rgba(86,123,79,0.6);
+    border-bottom: 1px solid #567b4f;
+    transition: 0.5s;
+    z-index: 1000;
+}
+.header .header-bg{
+    background-color: #567b4f;
 }
 .nav ul li{
     box-snap: none;
     display: inline-block;
     margin: 0 20px;
 }
-.content{
-    margin-top: 53px;
+.nav ul li a{
+    color: #fafafa;
 }
