@@ -10,13 +10,12 @@ a{
     padding:15px 0;
     display: flex;
     justify-content: center;
-    background-color: rgba(86,123,79,0.6);
     border-bottom: 1px solid #567b4f;
     transition: 0.5s;
     z-index: 1000;
 }
-.header .header-bg{
-    background-color: #567b4f;
+.header-bg{
+    background-color: rgba(86,123,79,0.8);
 }
 .nav ul li{
     box-snap: none;

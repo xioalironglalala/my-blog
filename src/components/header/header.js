@@ -7,6 +7,8 @@ class Header extends React.Component {
 
     componentDidMount() {
         window.addEventListener("scroll",this.handleScroll)
+        // const header = document.getElementById("header")
+        // header.classList.add("header-bg")
     }
 
     handleScroll = (e) =>{
@@ -43,7 +45,6 @@ class Header extends React.Component {
                     <Route/>
                 </div>
             </Router>
-
         )
     }
 }
