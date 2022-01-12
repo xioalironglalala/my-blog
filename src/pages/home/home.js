@@ -1,5 +1,6 @@
 import React from "react";
 import homeImg from '../../assets/home/home-background.jpeg'
+import TypeWriter from "../../components/typeWriter/typeWriter";
 
 const homeStyle = {
     backgroundImage:`url(${homeImg})`,
@@ -14,7 +15,10 @@ class Home extends React.Component{
     render() {
         return (
             <div className="app">
-                <div style={homeStyle} className="home-slogan"> jknj</div>
+                <div style={homeStyle} className="home-slogan"> jknj
+                    <TypeWriter />
+                </div>
+
             </div>
         )
     }
